@@ -25,3 +25,6 @@ npm install styled-components
 npm start
 ```
 Or you can visit this link http://BogdanVulic.github.io/SpaceX_App
+
+### Edit
+There is currently some problem with registration, if you want to login you can use "sss" for username and "asdf1234" for password.
