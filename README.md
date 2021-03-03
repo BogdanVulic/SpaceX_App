@@ -24,3 +24,4 @@ npm install react-router-dom
 npm install styled-components
 npm start
 ```
+Or you can visit this link http://BogdanVulic.github.io/SpaceX_App
