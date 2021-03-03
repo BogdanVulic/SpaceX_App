@@ -21,10 +21,10 @@ const App = () => {
     const [crew, setCrew] = useState([]);
 
     useEffect(() => {
+        getCompany().then(res => {
+            setCompany(res.data);
+        })
         if(user){
-            getCompany().then(res => {
-                setCompany(res.data);
-            })
             getLaunches().then(res => {
                 setLaunches(res.data);
             })
