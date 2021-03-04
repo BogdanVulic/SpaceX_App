@@ -40,7 +40,7 @@ const App = () => {
 
     return (
         <>
-                <Router>
+                <Router basename='/SpaceX_App'>
                 <Nav user={user} setUser={setUser}></Nav>
                 <Switch>
                     <Route exact path='/'>
